@@ -1,0 +1,15 @@
+.active-header {
+    background-image: linear-gradient(to top , #ffffff19 , #f97d9454);
+    backdrop-filter: blur(40px);
+}
+.bg::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 100vh;
+    z-index: 999;
+    background: #00000043;
+}
