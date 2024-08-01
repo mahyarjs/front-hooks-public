@@ -13,3 +13,7 @@
     z-index: 999;
     background: #00000043;
 }
+main {
+    background-image: url('/image/index/home page/line.png');
+    background-repeat: no-repeat;
+}

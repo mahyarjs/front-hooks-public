@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/style/index.css">
     <link rel="icon" href="/image/logo.png">
 </head>
-<body class="min-h-[100vh] bg-whiteGray">
+<body class="min-h-[100vh] bg-whiteGray select-none overflow-x-hidden">
     <header class="fixed top-0 left-0 right-0 py-5 z-50 duration-300">
         <nav class="w-80%  mx-auto flex justify-between items-center">
             <div class="flex items-center gap-5 lg:hidden">
@@ -20,7 +20,7 @@
                     <img src="/image/untitled (1).png" class="w-60% md:w-auto">
                     <i class="fa-solid fa-xmark close-menu text-2xl cursor-pointer hover:text-staticBlue duration-300 lg:absolute lg:text-transparent"></i>
                 </li>
-                <li class="bg lg:hidden text-staticBlue cursor-pointer font-vazirBold text-2xl">خانه</li>
+                <li class="bg lg:hidden text-staticBlue font-vazirBold text-2xl">خانه</li>
                 <li><a href="" class="nav-bar">
                     <i class="fa-solid fa-book-open"></i>
                     <span>دوره های اموزشی</span>
@@ -34,7 +34,7 @@
                     <span>ارتباط با ما</span>
                 </a></li>
                 <li class="lg:hidden absolute bottom-10 left-9 right-9"><a href="">
-                    <button class="gradiant hover:scale-90 duration-300 rounded-lg h-50px w-full text-lg">
+                    <button class="gradiant rounded-lg h-50px w-full">
                         <i class="fa-solid fa-right-to-bracket -scale-100 ml-2"></i>
                         <span class="relative bottom-0.5">ورود</span>
                     </button>
@@ -49,14 +49,47 @@
                     </a>
                 </div>
                 <a href="">
-                    <button class="lg:gradiant hover:scale-90 hover:gradiant shadow-lg bg-white duration-300 rounded-full h-50px w-100px text-lg">
-                        <i class="fa-solid fa-right-to-bracket -scale-100 ml-2"></i>
-                        <span class="relative bottom-0.5">ورود</span>
+                    <button class="lg:gradiant">
+                        <i class="fa-solid fa-right-to-bracket -scale-110 ml-2"></i>
+                        <span>ورود</span>
                     </button>
                 </a>
             </div>
         </nav>
     </header>
+
+    <main class="lg:mt-20 mt-0">
+        <section class="flex justify-center">
+            <div class="flex lg:flex-row flex-col lg:items-center lg:justify-between w-70% mt-20 ">
+                <div class="text-center lg:text-right order-3 lg:order-1">
+                    <h1 class="font-extrabold font-extra text-darkBlue text-[50px] w-100% lg:w-500px">برنامه نویسی را سریع و آسان یاد بگیرید</h1>
+                    <p class="font-vazirMedium text-xl text-gray mt-5 border-b-2 border-gray w-100% lg:w-80% pb-5">
+                        ما کنارتون هستیم تا عمیق یاد بگیرید،
+                        <br>
+                        و با بهترین مسیر ممکن به مقصدتون برسید.
+                    </p>
+                    <div class="flex lg:flex-row flex-col gap-y-5 lg:gap-0 items-center mt-10 relative">
+                        <button class="gradiant w-32 font-vazirMedium">بزن بریم !</button>
+                        <div>
+                            <div class="flex ">
+                                <img src="/image/index/home page/user1.webp" alt="" class="border-2 border-white h-50px rounded-full relative right-5 z-50">
+                                <img src="/image/index/home page/user2.webp" alt="" class="border-2 border-white h-50px rounded-full relative right-2">
+                                <img src="/image/index/home page/saheb.webp" alt="" class="border-2 border-white h-50px rounded-full">
+                            </div>
+                            <div class="flex mt-5 relative right-5">
+                                <!-- <i>e</i> -->
+                                <p class="font-vazirLight text-gray"><span class="text-staticBlue">7.5</span> دانشجو</p>
+                            </div>
+                        </div>
+                        <img src="/image/index/home page/arrow.png" class="absolute left-10 top-100px h-20">
+                    </div>
+                </div>
+                <div class="order-1 lg:order-3">
+                    <img src="/image/index/home page/banner.webp" class="lg:h-500px lg:w-auto h-400px w-100%" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
     
     <script src="/js/index.js"></script>
     <script src="https://kit.fontawesome.com/31241df455.js" crossorigin="anonymous"></script>
