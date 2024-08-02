@@ -17,3 +17,14 @@ main {
     background-image: url('/image/index/home page/line.png');
     background-repeat: no-repeat;
 }
+.image {
+    background-image: url('/image/index/home page/untitled (1).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
